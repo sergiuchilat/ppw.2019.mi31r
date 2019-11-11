@@ -1,6 +1,7 @@
 E-mail: chilatsergiu@gmail.com
 
 Editoare de cod
+
 Offline:
 * https://notepad-plus-plus.org/downloads/
 * https://www.sublimetext.com/
