@@ -14,3 +14,6 @@ Offline:
 Online:
 * https://jsbin.com/sixuhituve/edit?html,output
 * https://jsfiddle.net/
+
+Validarea codului:
+* https://validator.w3.org
