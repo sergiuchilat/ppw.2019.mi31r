@@ -1,0 +1,54 @@
+body{
+	font-size: 0;
+}
+
+header, nav, section, footer{
+	font-size: 14px;
+}
+
+header{
+	background: lightblue;
+	height: 100px;
+}
+
+nav, section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav{
+	background: violet;
+	width: 20%;
+}
+
+nav.menu{
+	width: 100%;
+	background: red;
+	font-size: 0;
+}
+
+nav.menu a{
+	font-size: 14px;
+	width: 25%;
+	display: inline-block;
+	outline: 1px solid blue;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+section {
+	background: gray;
+	padding: 5%;
+	width: 70%;
+}
+
+article{
+	background: blue;
+	margin-top: 20px;
+}
+
+footer {
+	background: pink;
+		height: 100px;
+}

@@ -1,0 +1,28 @@
+body{
+	background: url(../img/body_bg.jpg);
+	background-attachment: fixed;
+}
+
+.element{
+	background: url(../img/smile_bg.jpg);
+	width: 200px;
+	height: 200px;
+	border: 1px solid gray;
+	margin: 10px;
+}
+
+.repeat-x{
+	background-repeat: repeat-x;
+}
+
+.repeat-y{
+	background-repeat: repeat-y;
+}
+
+.no-repeat{
+	background-repeat: no-repeat;
+}
+
+.cover{
+	background-size: cover;
+}
