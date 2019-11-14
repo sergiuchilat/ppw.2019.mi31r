@@ -17,3 +17,6 @@ Online:
 
 Validarea codului:
 * https://validator.w3.org
+
+Generator de text:
+* https://www.lipsum.com/
