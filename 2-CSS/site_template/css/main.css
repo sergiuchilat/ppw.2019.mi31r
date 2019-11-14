@@ -1,5 +1,8 @@
 body{
 	font-size: 0;
+	background: url(../img/body_bg.jpg);
+	background-attachment: fixed;
+	margin: 0;
 }
 
 header, nav, section, footer{
@@ -9,11 +12,27 @@ header, nav, section, footer{
 header{
 	background: lightblue;
 	height: 100px;
+	font-size: 56px;
+	text-align: center;
+	color: blue;
+	padding-top: 30px;
 }
 
-nav, section{
+aside, section{
 	display: inline-block;
 	vertical-align: top;
+}
+
+aside{
+	width: 20%;
+}
+
+
+aside nav.vertical a{
+	display: block;
+	background: blue;
+	width: 100%;
+	margin-top: 3px;
 }
 
 nav{
@@ -23,24 +42,35 @@ nav{
 
 nav.menu{
 	width: 100%;
-	background: red;
+	background: none;
 	font-size: 0;
 }
 
 nav.menu a{
-	font-size: 14px;
+	font-size: 26px;
+	height: 30px;
 	width: 25%;
 	display: inline-block;
-	outline: 1px solid blue;
+	border-radius: 0px;
 	text-align: center;
 	color: white;
 	text-decoration: none;
+	background: red;
+}
+
+nav.menu a:hover{
+	background: green;
+	color: yellow;
 }
 
 section {
+	margin-left: 1%;
 	background: gray;
 	padding: 5%;
-	width: 70%;
+	width: 69%;
+	border-radius: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 article{
@@ -51,4 +81,13 @@ article{
 footer {
 	background: pink;
 		height: 100px;
+}
+
+.rounded{
+	border-radius: 
+}
+
+section#home{
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.9);
 }
