@@ -1,0 +1,27 @@
+*{
+	border-radius: 50px;
+	height: 200px;
+}
+
+div{
+	background: red;
+	height: 100px;
+	width: 300px;
+	border: 1px solid blue;
+	margin-top: 5px;
+	border-radius: 8px;
+}
+
+.student{
+	background: pink;
+	border-radius: 0;
+}
+
+#student-deosebit{
+	background: violet;
+	border-radius: 100px;
+}
+
+p{
+	background: gray;
+}
