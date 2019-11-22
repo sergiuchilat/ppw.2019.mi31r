@@ -27,9 +27,12 @@ aside{
 	width: 20%;
 }
 
+aside nav.vertical{
+	display: grid;
+	grid-template-columns: 1fr;
+}
 
 aside nav.vertical a{
-	display: block;
 	background: blue;
 	width: 100%;
 	margin-top: 3px;
@@ -44,13 +47,14 @@ nav.menu{
 	width: 100%;
 	background: none;
 	font-size: 0;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
 }
 
 nav.menu a{
 	font-size: 26px;
 	height: 30px;
-	width: 25%;
-	display: inline-block;
+
 	border-radius: 0px;
 	text-align: center;
 	color: white;
@@ -61,6 +65,11 @@ nav.menu a{
 nav.menu a:hover{
 	background: green;
 	color: yellow;
+}
+
+nav.menu a.active{
+	background: yellow;
+	color: black;
 }
 
 section {
@@ -90,4 +99,87 @@ footer {
 section#home{
 	font-size: 16px;
 	background: rgba(255, 255, 255, 0.9);
+}
+
+
+section#news article{
+	background: white;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+section#news article img, 
+section#news article h2, 
+section#news article p, 
+section#news article a{
+	/*outline: 1px solid red;*/
+}
+
+section#news img{
+	height: 100px;
+}
+
+section#news article div{
+	text-align: right;
+}
+
+section#news article h2, 
+section#news article p{
+	text-align: justify;
+}
+
+
+#photos img{
+	width: 150px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#photos ul{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	list-style: none;
+}
+
+#video ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	list-style: none;
+	grid-gap: 10px;
+}
+
+#video ul iframe{
+	width:400px;
+	height: 300px;
+}
+
+
+@media screen and (max-width: 800px){
+
+	body{
+		background: none;
+	}
+
+	aside{
+		display: none;
+	}
+
+	section{
+		width: 100%;
+	}
+
+	#video ul{
+		display: grid;
+		grid-template-columns: 1fr;
+		list-style: none;
+		grid-gap: 10px;
+	}
+
+	#video ul iframe{
+		width:400px;
+		height: 300px;
+	}
 }
